@@ -1,4 +1,5 @@
 const { readFile, writeFile } = require("fs");
+
 console.log("start");
 readFile("./content/first.txt", "utf8", (err, result) => {
 	if (err) {
