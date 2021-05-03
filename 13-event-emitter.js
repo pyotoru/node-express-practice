@@ -19,3 +19,10 @@ customEmitter.on("response", () => {
 });
 
 customEmitter.emit("response", "john", 34);
+
+
+// 1. you can have as many functions listening to an event as you want
+// 2. the order matters
+// 3. we can pass arguments when emitting event
+// 4. even though you might not write you own event, events are a core building block of node
+// first listen to event and then emit it
